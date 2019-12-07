@@ -162,15 +162,24 @@ p {
 header {
   display: flex;
   justify-content: space-between;
+  margin: 2%;
+}
+header .navigation {
+  display: flex;
+  justify-content: left;
 }
 header img {
   height: auto;
-  width: 50%;
+  width: 25%;
   border-radius: 10%;
+  justify-content: center;
 }
 header nav {
-  width: 50%;
-  align-content: space-between;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
 }
 header nav a {
   text-decoration: none;
