@@ -131,7 +131,7 @@ table {
 }
 html {
   font-size: 62.5%;
-  background-color: #262323;
+  background-color: #01dcfe;
 }
 html,
 body {
@@ -183,8 +183,39 @@ header nav {
 }
 header nav a {
   text-decoration: none;
+  color: black;
+  background-color: #fefefe;
   text-align: center;
   font-size: 2.2rem;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+header .navigation {
+  display: flex;
+  justify-content: left;
+}
+header nav {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  background-color: #fefefe;
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 5%;
 }
 .about {
   display: flex;
@@ -194,17 +225,25 @@ header nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  background-color: #fefefe;
+  border-radius: 10%;
   width: 50%;
+  margin: 2%;
 }
 .about .about-me-text p {
   text-align: center;
+  margin: 2%;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 .about .about-me-pic {
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 .about .about-me-pic img {
   height: auto;
   width: 100%;
   border-radius: 10%;
+  margin: 2%;
 }
