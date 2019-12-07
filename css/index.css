@@ -199,14 +199,14 @@ header .navigation {
   display: flex;
   justify-content: left;
 }
-header .navigation nav {
+header nav {
   width: 75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 2%;
 }
-header .navigation a {
+header nav a {
   text-decoration: none;
   color: black;
   background-color: #fefefe;
